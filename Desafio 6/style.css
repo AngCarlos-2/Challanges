@@ -1,0 +1,66 @@
+header {
+    color: orange;
+    font-family: Arial;
+    font-size: 20px;
+    width: 100vw;
+    height: 30px;
+    margin: 0%;
+    background-color: rgb(141, 141, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-image: url("imagens/hamburguer-fundo.png");
+    background-size: 50vw 50vh;
+}
+
+.burguer {
+    width: 50px;
+    height: 45px;
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    top: 0px;   
+}
+
+section {
+    background: white
+    border-box 10px;
+    padding: 15px;
+    width: 900px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.366);
+}
+
+h3, p, #salad {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+#txtNome, #txtNum ,#txtEnd, select, #txtObs {
+    border-top: black solid 1px;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+}
+
+.ponto {
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#conf, .btn {
+    font-family: Arial;
+    font-size: 20px;
+    padding: 5px;
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

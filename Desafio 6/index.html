@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/Pictogrammers-Material-Hamburger.48.png"image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Hamburgueria</title>
+</head>
+<body>
+    <header>Hamburgueria Projetada
+        <div class="burguer">
+        <img id="burguer" src="imagens/Hamburguer.png" alt="Imagem de um hambúrguer montado">
+        </div>
+    </header>
+    <hr> 
+       <section>
+           <h3>Informações pessoais:</h3>
+           <p>Nome: <input type="text" id='txtNome' pattern="[^0-9]+"> Número do usuário: <input type="text" id="txtNum" pattern="[^A-Z]+"> Endereço: <input type="text" id="txtEnd"></p>
+           <h3>Ponto da carne:</h3>
+           <input type="radio" name="pc" id="p1"> <label class="ponto">Mal</label> passada <img src="imagens/mal-passada.png" alt="Imagem de um pedaço de carne mal passado">
+           <input type="radio" name="pc" id="p2"> <label class="ponto">Ao ponto</label> <img src="imagens/ao-ponto.png" alt="Imagem de um pedaço de carne ao ponto.">
+           <input type="radio" name="pc" id="p3"> <label class="ponto">Bem passada</label> <img src="imagens/bem-passada.png" alt="Imagem de um pedaço de carne bem passada.">
+           <h3>Salada:</h3>
+           <select id="salad">
+               <option selected></option>
+               <option value="AT"> Tomate e Alface</option>
+               <option value="ATC"> Alface, Tomate e Cebola Caramelizada</option>
+               <option value="CRR"> Cebola Roxa e Rúcula</option>
+               <option value="S/">Sem salada.</option>
+           </select>
+           <h3>Observações:</h3>
+           <input type="text" id="txtObs" size="50px">
+       </section>
+       <hr>
+       <div class="btn">
+           <input type="button" value="Confirmar pedido" onclick="confirm()" id="conf">
+       </div>
+       <footer><p>&copy; ByÂngelo</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>

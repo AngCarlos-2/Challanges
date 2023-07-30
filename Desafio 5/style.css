@@ -1,0 +1,26 @@
+body {
+    background-image: url('imagens/form.png');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.text {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+p, label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8px;
+    gap: 0.5rem;
+}
