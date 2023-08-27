@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="res">
+        <!--<h1>0</h1>-->
+        <input type="text" id="num" value="0">
+    </div>
+
+    <section class="rectangle">
+        <div><button>%</button></div>
+        <div><button click="zero()">CE</button></div>
+        <div><button click="zero()">C</button></div>
+        <div><button>/</button></div>
+        <div><button click="num()" id="n7" data-value="7">7</button></div>
+        <div><button click="num()" id="n8" data-value="8">8</button></div>
+        <div><button click="num()" id="n9" data-value="9">9</button></div>
+        <div><button>*</button></div>
+        <div><button click="num()" id="n4" data-value="4">4</button></div>
+        <div><button click="num()" id="n5" data-value="5">5</button></div>
+        <div><button click="num()" id="n6" data-value="6">6</button></div>
+        <div><button>-</button></div>
+        <div><button click="num()" id="n1" data-value="1">1</button></div>
+        <div><button click="num()" id="n2" data-value="2">2</button></div>
+        <div><button click="num()" id="n3" data-value="3">3</button></div>
+        <div><button>+</button></div>
+        <div><button>+/-</button></div>
+        <div><button click="num()" id="n0">0</button></div>
+        <div><button>,</button></div>
+        <div><button class="equal">=</button></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
