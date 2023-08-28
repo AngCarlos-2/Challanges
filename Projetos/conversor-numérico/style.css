@@ -1,0 +1,46 @@
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label, select {
+    width: 150px;
+    display: flex;
+}
+
+.opt {
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr;
+}
+
+.res {
+    width: 362px;
+    background-color: #f2f2f2;
+}
+
+div {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+input, select {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+}
+
+.conv {
+    color: white;
+    background-color: #238AFF;
+}
+
+.others {
+    color: white;
+    background-color: #656D73;
+}

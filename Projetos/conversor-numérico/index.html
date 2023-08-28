@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor numérico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="opt">
+        <label for="">Desde</label>
+        <label for="">Para</label>
+        <select name="" id="selUn">
+            <option value=""></option>
+            <option value="D">Decimal</option>
+            <option value="B">Binário</option>
+            <option value="H">Hexadecimal</option>
+        </select>
+        <select name="" id="selUn2">
+            <option value=""></option>
+            <option value="D">Decimal</option>
+            <option value="B">Binário</option>
+            <option value="H">Hexadecimal</option>
+        </select>
+    </section>
+       
+    
+    <div>
+        <section class="res">
+            <label for="" class="text">Número p/ converter:</label>
+                <input type="text" name="value" id="num" pattern="[0-9][A-F]"> <br>
+                <div>
+                    <button class="conv">Converter</button>
+                    <button class="others">Apagar</button>
+                    <button class="others">Inverter</button>
+                </div>
+                <label for="">Número convertido:</label>
+                <input type="text" name="answer" id="ans">
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
